@@ -1,0 +1,238 @@
+#container{
+  font-family:poppins;
+}
+#input{
+   border-radius:10px;
+  width: 60%;
+  padding: 8px 12px;
+  height: 30px;
+  margin: 15px;
+  background-color: #ccccccef;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+#input::placeholder{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.534);
+}
+#click{
+  padding: 8px 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgba(0, 128, 28, 0.808);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+}
+#ligne{
+  border-bottom: 1px solid rgba(0, 128, 28, 0.589);
+}
+#sidebar{
+ background-color: #ccccccd3;
+ padding:50px;
+ border-radius: 10px;
+ height:550px;
+ transition: all ease-in-out;
+ margin-top: 30px;
+ position:absolute;
+ z-index: 10;
+ transition: left 0.5s ease-in-out;
+}
+
+.sidebar-ouvert{
+ left: 0px;
+ transform: translateX(1.2);
+}
+.sidebar-ferme{
+  left:-380px;
+  transform: translateX(1.2);
+}
+#click-sidebar{
+  margin-right: 3px;
+  border-style: none;
+  font-size:10px;
+}
+#click-sidebar:hover{
+ backdrop-filter: blur(15px);
+ background-color: rgba(0, 0, 0, 0.123);
+}
+.mon-select__control{
+border:1px solid white;
+background-color:white;
+border-radius:5px;
+padding:20px;
+width:110px;
+height:40px;
+margin:8px;
+}
+.mon-select__placeholder{
+  color:black;
+  font-size:12px;
+}
+.mon-select__indicators{
+  padding:right;
+}
+.mon-select__menu{
+  border-radius:10px;
+  border:1px solid;
+  margin-top:4px;
+  background-color:whitesmoke;
+  box-shadow:0 4px 12px rgba(0, 0, 0, 0.2)
+}
+.mon-select__option{
+  padding: 8px 12px;
+  cursor:pointer;
+}
+.mon-select__option:hover{
+border:1px solid;
+padding:6px;
+background-color:wheat;
+border-radius:5px
+}
+#label{
+  text-transform: uppercase;
+}
+#corps{
+  display:flex;
+  gap:10px;
+  position: relative;
+  flex-shrink: 1;
+  width: 100%;
+ background-color:  rgba(0, 0, 0, 0.103);
+ justify-content: center;
+}
+
+#groupe{
+  text-transform: capitalize;
+  position: relative;
+  top: -35px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.61);
+}
+label{
+  color: black;
+  font-weight: bolder;
+}
+#entete{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.card{
+  display: flex;
+  align-items:center;
+  width: 60%;
+  padding: 8px 80px;
+  border-radius:10px;
+  height: 50px;
+  margin: 15px 0;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+}
+#contact{
+  font-weight:bold;
+  color:black;
+}
+#met{
+  display:flex;
+  flex-direction:space-between;
+  gap:5px;
+  font-size:14px
+
+}
+#avatar{
+  border:1px solid black;
+  padding:22px;
+  width: 30px;
+  height:20px;
+  border-radius:50%;
+  position:relative;
+  border-style:none;
+  font-size:20px;
+  color:white;
+  font-weight:bolder;
+  right: 70px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+}
+
+#name{
+  font-weight:bolder;
+  color:black
+}
+#badge{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+ #description{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+ background-color:  rgba(0, 0, 0, 0.103);
+}
+#badge-metier{
+  border-radius: 20px;
+  border: 1px solid black;
+ width: 130px;
+ height: 30px;
+ background-color:rgba(0, 128, 58, 0.815) ;
+ border-style: none;
+ color: rgba(255, 255, 255, 0.747);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#badge-ville{
+border-radius: 20px;
+  border: 1px solid black;
+ width: 130px;
+ height: 30px;
+ background-color:rgba(220, 43, 20, 0.87) ;
+ border-style: none;
+ color: rgba(255, 255, 255, 0.747);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#badge-age{
+border-radius: 20px;
+  border: 1px solid black;
+ width: 130px;
+ height: 30px;
+ background-color:rgba(100, 148, 237, 0.849);
+ border-style: none;
+ color: rgba(255, 255, 255, 0.747);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#badge-button{
+  background-color: rgba(0, 0, 0, 0.089);
+  border-style: none;
+  color: white;
+  margin-left: 5px;
+}
+@media (min-width:1279px){
+  #corps{
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+     background-color:  rgba(0, 0, 0, 0.103);
+  }
+  #click-sidebar{
+    margin-right: 8px;
+  }
+}
+@media (min-width:767px){
+  #corps{
+    justify-content: center;
+    margin: auto;
+    background-color:  rgba(0, 0, 0, 0.103);
+  }
+  #click-sidebar{
+    margin-right: 8px;
+  }
+}
+
