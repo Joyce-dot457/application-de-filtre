@@ -56,10 +56,11 @@
   border-style: none;
   font-size:5px;
   padding: 0;
+  background-color: rgba(0, 0, 0, 0.123);
 }
 #click-sidebar:hover{
  backdrop-filter: blur(15px);
- background-color: rgba(0, 0, 0, 0.123);
+ background-color: rgba(0, 0, 0, 0);
 }
 .mon-select__control{
 border:1px solid white;
@@ -138,6 +139,7 @@ label{
 #contact{
   font-weight:bold;
   color:white;
+  margin-right: 10px;  
 }
 #met{
   display:flex;
