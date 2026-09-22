@@ -49,12 +49,12 @@
 }
 .sidebar-ferme{
   left:-380px;
-  transform: translateX(1.2);
+  transform: translateX(1.2); 
 }
 #click-sidebar{
-  margin-right: 3px;
+  margin-left: 10px;
   border-style: none;
-  font-size:10px;
+  font-size:5px;
 }
 #click-sidebar:hover{
  backdrop-filter: blur(15px);
@@ -222,7 +222,7 @@ border-radius: 20px;
      background-color:  rgba(0, 0, 0, 0.103);
   }
   #click-sidebar{
-    margin:0 5px 0 10px; 
+    margin-right:25%; 
   }
 }
 @media (min-width:767px){
