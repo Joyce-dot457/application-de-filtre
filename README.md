@@ -33,7 +33,7 @@ git commit -m
 git push -u origin main
 \`\`\`
 
-Cette application est ensuite accessible sur `http:localhost:5173`
+Cette application est ensuite accessible sur `https://application-de-filtre.vercel.app/`
 
 ## Structure du projet 
 

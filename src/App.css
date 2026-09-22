@@ -136,7 +136,7 @@ label{
 }
 #contact{
   font-weight:bold;
-  color:black;
+  color:white;
 }
 #met{
   display:flex;
@@ -222,7 +222,7 @@ border-radius: 20px;
      background-color:  rgba(0, 0, 0, 0.103);
   }
   #click-sidebar{
-    margin-right: 8px;
+    margin:0 5px 0 10px; 
   }
 }
 @media (min-width:767px){

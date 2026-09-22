@@ -93,10 +93,10 @@ function Filtre() {
         </div>
         <div id="liste">
           <div id="entete">
-            <p id="contact">
-              <button onClick={handleClick} id="click-sidebar">
+             <button onClick={handleClick} id="click-sidebar">
                 <Menu />
               </button>
+              <p id="contact">
               CONCTACTS
             </p>
             <p id="a-z">nom(A-Z)</p>
